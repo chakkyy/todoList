@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    190deg,
+    rgb(134, 123, 205) 0%,
+    rgb(106, 90, 171) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #222;
+}
+
+html {
+  line-height: 1.15;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(106, 90, 171);
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(134, 123, 205);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(78, 55, 172);
+}

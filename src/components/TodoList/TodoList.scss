@@ -1,0 +1,63 @@
+.grid__main {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  button {
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  button:not(:last-child) {
+    margin-right: 1rem;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-bottom: 2em;
+  }
+}
+
+.grid__buttons {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid__filters {
+  margin-bottom: 1em;
+}
+
+.btn__clearCompleted {
+  max-width: 15rem;
+}
+.grid__tasksleft {
+  color: #fff;
+  text-shadow: 0 0 0.5rem #000;
+  font-size: 1.5em;
+  background: rgb(129, 52, 252, 0.2);
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+@media Screen and (max-width: 640px) {
+  .grid__main {
+    margin-top: 2rem;
+  }
+  .grid__main ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    align-self: center;
+  }
+}
